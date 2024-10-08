@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Constitution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="description">
+            <h1 class="main-heading">INDIAN CONSTITUTION</h1>
+            <p>The Indian Constitution is the supreme law of India. It lays down the framework for the political principles, procedures, and powers of government institutions, and sets out the fundamental rights and duties of citizens.</p>
+        </div>
+
+        <div class="form-container">
+            <div id="login-form" class="form-section">
+                <h2>Login</h2>
+                <form>
+                    <label for="login-username">Username</label>
+                    <input type="text" id="login-username" required>
+                    
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" required>
+                    
+                    <button type="submit">Login</button>
+                    <p>Don't have an account? <a href="#" id="show-signup">Signup</a></p>
+                </form>
+            </div>
+
+            <div id="signup-form" class="form-section" style="display: none;">
+                <h2>Signup</h2>
+                <form>
+                    <label for="signup-username">Username</label>
+                    <input type="text" id="signup-username" required>
+                    
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" required>
+                    
+                    <button type="submit">Signup</button>
+                    <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
